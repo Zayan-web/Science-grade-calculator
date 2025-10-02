@@ -1,1 +1,16 @@
+quiz_1 = 21/25
+quiz_2 = 20/20
+quiz_3 = 30/30
+quiz_4 = 25/25
+quiz_5 = 19/20
+quiz_mark = (quiz_1 + quiz_2 + quiz_3 + quiz_4 + quiz_5)/5
+quiz_average = quiz_mark * 10
 
+Lab_1 = 20.5/22
+lab_mark = (Lab_1)/1
+lab_average = lab_mark * 30
+
+
+Total_mark = ((lab_average + quiz_average)/40)*100
+
+print(Total_mark)
